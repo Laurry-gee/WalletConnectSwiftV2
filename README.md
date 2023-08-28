@@ -1,61 +1,13 @@
-# Wallet Connect v.2 - Swift
+# RSS Builder by B!Soft MarkBook RSS Feed
 
-![CI main](https://github.com/WalletConnect/WalletConnectSwiftV2/actions/workflows/ci.yml/badge.svg?branch=main)
-![CI develop](https://github.com/WalletConnect/WalletConnectSwiftV2/actions/workflows/ci.yml/badge.svg?branch=develop)
-
-Swift implementation of WalletConnect v.2 protocol for native iOS applications.
-## Requirements
-- iOS 13
-- XCode 13
-- Swift 5
-
-## Documentation & Usage
-- In order to build API documentation in XCode go to Product -> Build Documentation
-- [Getting started with wallet integration](https://docs.walletconnect.com/2.0/swift/sign/installation)
-- [Beginner guide to WalletConnect v2.0 for iOS Developers](https://medium.com/walletconnect/beginner-guide-to-walletconnect-v2-0-for-swift-developers-4534b0975218)
-- [Protocol Documentation](https://github.com/WalletConnect/walletconnect-specs)
-- [Glossary](https://docs.walletconnect.com/2.0/introduction/glossary)
-- [Migration guide from Sign and Auth to Web3Wallet](https://github.com/WalletConnect/walletconnect-docs/blob/main/docs/swift/guides/web3wallet-migration.md)
-
-
-## Installation
-### Swift Package Manager
-Add .package(url:_:) to your Package.swift:
-```Swift
-dependencies: [
-    .package(url: "https://github.com/WalletConnect/WalletConnectSwiftV2", .branch("main")),
-],
-```
-### Cocoapods
-Add pod to your Podfile:
-
-```Ruby
-pod 'WalletConnectSwiftV2'
-```
-If you encounter any problems during package installation, you can specify the exact path to the repository
-```Ruby
-pod 'WalletConnectSwiftV2', :git => 'https://github.com/WalletConnect/WalletConnectSwiftV2.git', :tag => '1.0.5'
-```
-## Setting Project ID
-Follow instructions from *Configuration.xcconfig* and configure PROJECT_ID with your ID from WalletConnect Dashboard
-```
-// Uncomment next line and paste your project id. Get this on: https://cloud.walletconnect.com/sign-in
-// PROJECT_ID = YOUR_PROJECT_ID
-// To use Push Notifications on the Simulator you need to grab the simulator identifier
-// from Window->Devices and Simulators->Simulator you're using->Identifier
-SIMULATOR_IDENTIFIER = YOUR_SIMULATOR_IDENTIFIER
-```
-## Example App
-open `Example/ExampleApp.xcodeproj`
-
-## Web3Wallet
-Web3Wallet SDK introduces a new interface for all wallets that wraps the Sign and Auth clients internally.
-- [Migration guide from Sign and Auth to Web3Wallet](https://github.com/WalletConnect/walletconnect-docs/blob/main/docs/swift/web3wallet/upgrade-guide.md)
-
-## License
-
-Apache 2.0
-
-## Guides
-
-- [Artifacts sometimes not available in Actions -> Build name -> Artifacts?](./docs/guides/downloading_artifacts.md)
+https://www.markbook.com MarkBook RSS Feed. Keep up to date on the latest news. en-us mrichardson@acadiemgroup.com The Acadiem Group 2020 NEW MarkBook HTML5 is Here! 10 Oct 2020 10:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News Our ALL NEW MarkBook HTML5 Web Application is Here! Flash or Flex is no longer required. Many added features in a clean new look. Now you can use MarkBook on your Chromebook, Android or iPadOS tablet as well as Windows, macOS or Linux devices. (Select tablets only) A new version of the app, 1.1.0 22 Dec 2020 16:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.1.0, has been launched. It contains a major security update. Please see the Release Notes for the details. A new version of the app, 1.2.0 26 Jan 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.2.0, has been launched. You can now Copy Comments to many students at once and easily input entries on tablets using Numeric Keypad. Please see the Release Notes for the details. A new version of the app, 1.3.0 25 Mar 2021 17:30:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.3.0, has been launched. Please see the Release Notes for the details. A new version of the app, 1.4.0 30 Apr 2021 08:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News A new version of the app, 1.4.0, has been launched. Please see the Release Notes for the details. For TDSB users 6 Aug 2021 08:00:00 -0400 http://tdsb.on.ca/ mrichardson@acadiemgroup.com News TDSB users: In preparation for Single Sign On service in September, all usernames now use your Toronto District School Board email address. TDSB-logo.png Attention TDSB Users 18 Sep 2021 01:00:00 -0400 
+https://www.markbook.com mrichardson@acadiemgroup.com News On Saturday September 18th, Single Sign On (SSO) will be implemented for TDSB MarkBook (Cloud) users. After the implementation is completed, teachers will be required to sign onto MarkBook using their TDSB e- mail address and password. Teachers that are already signing onto MarkBook with their TDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TDSB-logo.png For TVDSB Users 09 Sep 2022 01:00:00 -0400 
+https://www.markbook.com News On Tuesday, September 6th, Single Sign On (SSO) was implemented for TVDSB MarkBook (Cloud) users. Teachers are now required to sign onto MarkBook using their TVDSB e-mail address and password in the Microsoft 365 Apps environment. Please follow the Information Guidesheet for "Transfer from Individual to Corporate Domain using SSO in MarkBook®”. Teachers that are already signing onto MarkBook with their TVDSB email address will have their existing class data maintained. Teachers that are currently using personal email accounts will need to contact 
+support@markbookapp.com to request existing class data transfers, if required. TVDSB-logo.webp WECDSB 31 Oct 2022 01:00:00 -0400 
+https://www.markbook.com News WECDSB users, please ensure that you have updated ALL of your courses with the most recent Aspen extract that has your first initial and last name in the file name (i.e. see below). Furthermore, please ensure you have submitted a copy (screenshots) of your updated courses to your school-issued Google form. WECDSB-logo.png
